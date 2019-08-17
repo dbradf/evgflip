@@ -41,11 +41,12 @@ setup(
     ],
     install_requires=[
         'Click==7.0',
+        'evergreen.py==0.5.0',
         'PyYAML==5.1',
-        'requests==2.22.0',
+        'structlog==19.1.0',
     ],
     entry_points='''
         [console_scripts]
-        cli=evgflip.cli:main
+        evg-flip=evgflip.cli:main
     ''',
 )

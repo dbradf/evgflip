@@ -1,5 +1,6 @@
 # evgflip
 
+A tool for find when tasks flip from passing to failing in evergreen.
 
 ## Testing
 
