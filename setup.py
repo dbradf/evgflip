@@ -40,6 +40,7 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
     install_requires=[
+        'boltons==19.1.0',
         'Click==7.0',
         'evergreen.py==0.5.0',
         'PyYAML==5.1',

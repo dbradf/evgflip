@@ -1,10 +1,10 @@
-from datetime import datetime, time, timedelta
-import logging
 import json
+import logging
+from datetime import datetime, time, timedelta
 
 import click
-from evergreen.api import CachedEvergreenApi
 import structlog
+from evergreen.api import CachedEvergreenApi
 
 from evgflip.find_flips import find
 
